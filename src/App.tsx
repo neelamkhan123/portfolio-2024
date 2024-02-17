@@ -1,26 +1,32 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Card from "./components/UI/Card";
+import Icons from "./components/Icons/Icons";
+import About from "./components/About/About";
+import Projects from "./components/Projects/Projects";
+import Contact from "./components/Contact/Contact";
 
-function App() {
+import { useRef } from "react";
+
+import styles from "./App.module.css";
+
+const App = (): JSX.Element => {
+  const aboutRef = useRef<null | HTMLElement>(null);
+  const projectsRef = useRef<null | HTMLElement>(null);
+  const contactRef = useRef<null | HTMLElement>(null);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main className={styles.app}>
+      <Icons />
+      <Card
+        aboutRef={aboutRef}
+        projectsRef={projectsRef}
+        contactsRef={contactRef}
+      >
+        <About scrollToAbout={aboutRef} />
+        <Projects scrollToProjects={projectsRef} />
+        <Contact scrollToContacts={contactRef} />
+      </Card>
+    </main>
   );
-}
+};
 
 export default App;
