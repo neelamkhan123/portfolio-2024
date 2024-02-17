@@ -95,3 +95,61 @@
     top: 160px;
   }
 }
+
+/* MEDIA QUERIES */
+
+@media (max-width: 1420px) {
+  .icon {
+    height: 45px;
+    width: 45px;
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 1300px) {
+  .icon {
+    left: 30px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .container {
+    width: 10%;
+  }
+}
+
+@media (max-width: 1100px) {
+  .icon {
+    left: 20px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .icon {
+    left: 10px;
+  }
+}
+
+@media (max-width: 850px) {
+  .container {
+    width: 10%;
+  }
+}
+
+@media (max-width: 800px) {
+  .container {
+    width: 12%;
+  }
+}
+
+@media (max-width: 680px) {
+  .container {
+    width: 15%;
+  }
+}
+
+@media (max-width: 560px) {
+  .container {
+    width: 17%;
+  }
+}

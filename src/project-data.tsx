@@ -244,6 +244,10 @@ export const trivia: ProjectTemplateProps = {
       className: "javascript",
     },
     {
+      language: "CSS",
+      className: "css",
+    },
+    {
       language: "SASS/SCSS",
       className: "sass",
     },
@@ -270,6 +274,10 @@ export const calculator: ProjectTemplateProps = {
     {
       language: "JavaScript",
       className: "javascript",
+    },
+    {
+      language: "CSS",
+      className: "css",
     },
     {
       language: "SASS/SCSS",

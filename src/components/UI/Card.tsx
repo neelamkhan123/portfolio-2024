@@ -22,6 +22,14 @@ const Card = ({
     setShowNav((prevState) => !prevState);
   };
 
+  // const sideBar = (element: HTMLElement) => {
+  //   if (showNav) {
+  //     element.style.width = "200px";
+  //   } else {
+  //     element.style.width = "60px";
+  //   }
+  // };
+
   return (
     <main className={`${styles.card} ${className ? className : ""}`}>
       {/* Header Container */}
@@ -95,7 +103,7 @@ const Card = ({
       {/* Content Container */}
       <section
         className={styles.content}
-        style={{ width: showNav ? "1070px" : "1210px" }}
+        // style={{ width: showNav ? "1070px" : "1210px" }}
       >
         {children}
       </section>
