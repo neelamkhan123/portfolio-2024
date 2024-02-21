@@ -47,7 +47,7 @@ const Card = ({
             <li className={`language javascript`}>JavaScript</li>
             <li className={`language typescript`}>TypeScript</li>
             <li className={`language react`}>React</li>
-            <li className={`language vue`}>Vue</li>
+            {/* <li className={`language vue`}>Vue</li> */}
           </ul>
         </section>
       </header>
