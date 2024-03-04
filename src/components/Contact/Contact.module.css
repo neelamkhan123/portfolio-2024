@@ -4,6 +4,9 @@
   width: 100%;
 }
 
+.form {
+}
+
 .section {
   display: flex;
   justify-content: space-between;
@@ -38,22 +41,27 @@
   color: var(--default-font-color);
 }
 
+.button {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 1rem;
+}
+
 .submit {
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 2rem;
   font-size: 1.2rem;
   background-color: rgb(33, 201, 33);
   color: var(--light-font-color);
   border: none;
   border-radius: 20px;
   box-shadow: var(--button-box-shadow-fine);
-  width: 100px;
   margin-bottom: 1rem;
   font-family: var(--header-font);
   cursor: pointer;
 }
 
 .submit:hover {
-  scale: 0.9;
+  scale: 0.95;
   transition: scale 0.3s ease-in-out;
 }
 

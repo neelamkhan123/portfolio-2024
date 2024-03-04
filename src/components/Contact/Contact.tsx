@@ -73,9 +73,11 @@ const Contact = ({ scrollToContacts }: ContactsProps): JSX.Element => {
         </section>
 
         {/* Submit Button */}
-        <button type="submit" className={styles.submit}>
-          send
-        </button>
+        <div className={styles.button}>
+          <button type="submit" className={styles.submit}>
+            send
+          </button>
+        </div>
       </form>
     </article>
   );

@@ -11,30 +11,25 @@ const About = ({ scrollToAbout }: AboutProps): JSX.Element => {
     <article className={styles.container} ref={scrollToAbout}>
       <h1 className="heading">About me</h1>
       <p className={styles.text}>
-        Hey there👋 I'm Neelam, a self-taught developer with a passion for
-        front-end development. My coding journey took an unexpected turn during
-        university when I realized my degree wasn't aligning with my career
-        goals. Seeking a new path, a friend suggested exploring programming,
-        opening up a world of opportunities in the tech field.
+        Hey there, I'm Neelam 👋 I am a dedicated and self-taught front-end
+        developer with a passion for crafting immersive and visually stunning
+        digital experiences. My expertise lies in HTML, CSS, and I have a
+        proficiency in utilizing advanced styling frameworks such as TailwindCSS
+        and SASS to create sleek and responsive user interfaces.
       </p>
       <p className={styles.text}>
-        Given my background in the arts and my love for painting and drawing,
-        front-end development appealed to me. Designing visually appealing and
-        user-friendly interfaces provided a platform to express my creativity,
-        inspire innovation, and engage in diverse projects that challenged me to
-        solve complex problems.
+        I have honed my skills in JavaScript and TypeScript, enabling me to
+        bring interactivity and dynamic functionality to web applications. My
+        proficiency extends to popular front-end libraries and frameworks,
+        including React and Vue, where I specialize in building modular and
+        scalable components.
       </p>
       <p className={styles.text}>
-        Starting with HTML and CSS, I quickly delved into JavaScript and
-        discovered the challenges and joys it brought. Despite the initial
-        hurdles, I found immense satisfaction in problem-solving, crafting
-        creative solutions, and continually learning new technologies. This
-        journey not only strengthened my work ethic and self-confidence, but it
-        also helped keep me motivated during my degree, graduating with a 2:1
-        and specialized knowledge in front-end development, boasting a robust
-        tech stack and an ongoing commitment to expanding my skill set. I am
-        enthusiastic about taking on new challenges and staying at the forefront
-        of technological advancements.
+        With a keen eye for design and a commitment to staying at the forefront
+        of industry trends, I excel in translating creative concepts into
+        polished, user-friendly interfaces. My journey as a self-taught
+        developer reflects a dedication to continuous learning and adapting to
+        emerging technologies.
       </p>
     </article>
   );
