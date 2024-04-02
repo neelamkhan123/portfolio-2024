@@ -37,7 +37,7 @@ export const recipeBlog: ProjectTemplateProps = {
   links: [
     {
       gitHub: "https://github.com/neelamkhan123/food-blog",
-      website: "https://github.com/neelamkhan123/food-blog",
+      website: "https://recipe-blog-neelam.netlify.app/",
     },
   ],
 };
